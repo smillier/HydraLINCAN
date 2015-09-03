@@ -409,6 +409,90 @@ at 30/07/2012 17:45:58</description>
 </package>
 </packages>
 </library>
+<library name="con-conrad">
+<description>&lt;b&gt;Conrad Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="741256-49">
+<description>Pin connector 741256-49 vertikal</description>
+<wire x1="-9.9" y1="2.9" x2="9.9" y2="2.9" width="0.2032" layer="21"/>
+<wire x1="9.9" y1="2.9" x2="9.9" y2="-2.9" width="0.2032" layer="21"/>
+<wire x1="9.9" y1="-2.9" x2="-9.9" y2="-2.9" width="0.2032" layer="21"/>
+<wire x1="-9.9" y1="-2.9" x2="-9.9" y2="2.9" width="0.2032" layer="21"/>
+<wire x1="-9.8" y1="1.7" x2="9.8" y2="1.7" width="0.2032" layer="21"/>
+<pad name="1" x="-8.89" y="0" drill="0.8128" diameter="1.27" shape="long" rot="R90"/>
+<pad name="2" x="-6.35" y="0" drill="0.8128" diameter="1.27" shape="long" rot="R90"/>
+<pad name="3" x="-3.81" y="0" drill="0.8128" diameter="1.27" shape="long" rot="R90"/>
+<pad name="4" x="-1.27" y="0" drill="0.8128" diameter="1.27" shape="long" rot="R90"/>
+<pad name="5" x="1.27" y="0" drill="0.8128" diameter="1.27" shape="long" rot="R90"/>
+<pad name="6" x="3.81" y="0" drill="0.8128" diameter="1.27" shape="long" rot="R90"/>
+<pad name="7" x="6.35" y="0" drill="0.8128" diameter="1.27" shape="long" rot="R90"/>
+<pad name="8" x="8.89" y="0" drill="0.8128" diameter="1.27" shape="long" rot="R90"/>
+<text x="-8.89" y="-5.08" size="1.778" layer="25">&gt;NAME</text>
+<text x="-9.525" y="3.175" size="1.778" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+</library>
+<library name="ref-packages">
+<description>&lt;b&gt;Reference Package&lt;/b&gt;&lt;p&gt;</description>
+<packages>
+<package name="RTRIMT93YA">
+<description>&lt;b&gt;Trimm resistor&lt;/b&gt; VISHAY&lt;p&gt;
+Cermet, abgedichtet nach IP67</description>
+<wire x1="2.15" y1="-4.75" x2="2.15" y2="4.75" width="0.254" layer="21"/>
+<wire x1="2.15" y1="4.75" x2="-2.55" y2="4.75" width="0.254" layer="21"/>
+<wire x1="-2.55" y1="4.75" x2="-2.55" y2="-4.75" width="0.254" layer="21"/>
+<wire x1="-2.55" y1="-4.75" x2="2.15" y2="-4.75" width="0.254" layer="21"/>
+<wire x1="-0.75" y1="2.6" x2="-0.3" y2="3.3" width="0.1524" layer="21" curve="-311.390901"/>
+<wire x1="-0.75" y1="2.6" x2="-0.3" y2="3.3" width="0.1524" layer="51" curve="48.609099"/>
+<pad name="1" x="0" y="-2.54" drill="0.6096"/>
+<pad name="2" x="0" y="0" drill="0.6096"/>
+<pad name="3" x="0" y="2.54" drill="0.6096"/>
+<text x="-3.04" y="-4.89" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="4.01" y="-4.89" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.45" y1="2.5" x2="-1.15" y2="4.4" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="v-reg">
+<description>&lt;b&gt;Voltage Regulators&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="79XXS_">
+<description>&lt;b&gt;VOLTAGE REGULATOR&lt;/b&gt;</description>
+<wire x1="4.826" y1="-4.318" x2="5.08" y2="-4.064" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-4.064" x2="-4.826" y2="-4.318" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-1.143" x2="5.08" y2="-4.064" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-4.064" x2="-5.08" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="-4.826" y1="-4.318" x2="-3.429" y2="-4.318" width="0.1524" layer="21"/>
+<wire x1="-3.429" y1="-4.318" x2="-1.651" y2="-4.318" width="0.1524" layer="51"/>
+<wire x1="-1.651" y1="-4.318" x2="-0.889" y2="-4.318" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="-4.318" x2="0.889" y2="-4.318" width="0.1524" layer="51"/>
+<wire x1="0.889" y1="-4.318" x2="1.651" y2="-4.318" width="0.1524" layer="21"/>
+<wire x1="1.651" y1="-4.318" x2="3.429" y2="-4.318" width="0.1524" layer="51"/>
+<wire x1="3.429" y1="-4.318" x2="4.826" y2="-4.318" width="0.1524" layer="21"/>
+<circle x="-4.6228" y="-3.7084" radius="0.254" width="0" layer="21"/>
+<pad name="IN" x="0" y="-2.54" drill="1.4986" diameter="1.9304" shape="long" rot="R90"/>
+<pad name="GND" x="-2.54" y="-2.54" drill="1.4986" diameter="1.9304" shape="long" rot="R90"/>
+<pad name="OUT" x="2.54" y="-2.54" drill="1.4986" diameter="1.9304" shape="long" rot="R90"/>
+<text x="-5.08" y="-6.0452" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="1.905" y="-3.81" size="1.27" layer="51" ratio="10">O</text>
+<text x="-3.175" y="-3.81" size="1.27" layer="51" ratio="10">+</text>
+<text x="-0.635" y="-3.81" size="1.27" layer="51" ratio="10">I</text>
+<rectangle x1="-5.334" y1="-1.27" x2="-3.683" y2="0" layer="21"/>
+<rectangle x1="-3.683" y1="-0.381" x2="-1.397" y2="0" layer="21"/>
+<rectangle x1="-1.397" y1="-1.27" x2="-1.143" y2="0" layer="21"/>
+<rectangle x1="-3.683" y1="-1.27" x2="-1.397" y2="-0.381" layer="51"/>
+<rectangle x1="1.143" y1="-1.27" x2="1.397" y2="0" layer="21"/>
+<rectangle x1="-1.143" y1="-0.381" x2="1.143" y2="0" layer="21"/>
+<rectangle x1="1.397" y1="-0.381" x2="3.683" y2="0" layer="21"/>
+<rectangle x1="3.683" y1="-1.27" x2="5.334" y2="0" layer="21"/>
+<rectangle x1="-1.143" y1="-1.27" x2="1.143" y2="-0.381" layer="51"/>
+<rectangle x1="1.397" y1="-1.27" x2="3.683" y2="-0.381" layer="51"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -619,20 +703,23 @@ design rules under a new name.</description>
 <element name="SWD_DEBUG" library="hydrabus_shield" package="HYDRABUS_SHIELD_M1X6" value="HYDRABUS_SHIELD_CON_HEADER_1X06" x="37.338" y="27.9908" smashed="yes">
 <attribute name="NAME" x="36.83" y="25.7683" size="0.8128" layer="21" ratio="10"/>
 </element>
-<element name="U1" library="Texas Instruments_By_element14_Batch_1" package="SOIC127P600X175-8N" value="SN65HVD233D" x="41.021" y="22.352" rot="MR0">
-<attribute name="OC_NEWARK" value="54H4289" x="41.021" y="22.352" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="SUPPLIER" value="Texas Instruments" x="41.021" y="22.352" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="OC_FARNELL" value="1207268" x="41.021" y="22.352" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="SOIC-8" x="41.021" y="22.352" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="SN65HVD233D" x="41.021" y="22.352" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="U1" library="Texas Instruments_By_element14_Batch_1" package="SOIC127P600X175-8N" value="SN65HVD233D" x="29.972" y="22.606" rot="MR0">
+<attribute name="OC_NEWARK" value="54H4289" x="29.972" y="22.606" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SUPPLIER" value="Texas Instruments" x="29.972" y="22.606" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_FARNELL" value="1207268" x="29.972" y="22.606" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PACKAGE" value="SOIC-8" x="29.972" y="22.606" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="SN65HVD233D" x="29.972" y="22.606" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="U2" library="Texas Instruments_By_element14_Batch_1" package="SOIC127P600X175-8N" value="SN65HVD233D" x="41.021" y="13.843" rot="MR0">
-<attribute name="OC_NEWARK" value="54H4289" x="41.021" y="13.843" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="SUPPLIER" value="Texas Instruments" x="41.021" y="13.843" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="OC_FARNELL" value="1207268" x="41.021" y="13.843" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="SOIC-8" x="41.021" y="13.843" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="SN65HVD233D" x="41.021" y="13.843" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="U2" library="Texas Instruments_By_element14_Batch_1" package="SOIC127P600X175-8N" value="SN65HVD233D" x="30.099" y="11.938" rot="MR0">
+<attribute name="OC_NEWARK" value="54H4289" x="30.099" y="11.938" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SUPPLIER" value="Texas Instruments" x="30.099" y="11.938" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_FARNELL" value="1207268" x="30.099" y="11.938" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PACKAGE" value="SOIC-8" x="30.099" y="11.938" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="SN65HVD233D" x="30.099" y="11.938" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
+<element name="E$1" library="con-conrad" package="741256-49" value="" x="3.175" y="18.034" rot="R90"/>
+<element name="E$2" library="ref-packages" package="RTRIMT93YA" value="" x="43.053" y="17.653"/>
+<element name="E$3" library="v-reg" package="79XXS_" value="" x="5.842" y="2.159" rot="R180"/>
 </elements>
 <signals>
 <signal name="+3V3" class="2">
@@ -641,6 +728,10 @@ design rules under a new name.</description>
 <contactref element="J2" pad="19"/>
 <contactref element="SWD_DEBUG" pad="1"/>
 <contactref element="U2" pad="3"/>
+<wire x1="55.626" y1="26.162" x2="50.038" y2="33.782" width="0" layer="19" extent="1-1"/>
+<wire x1="37.338" y1="27.9908" x2="50.038" y2="33.782" width="0" layer="19" extent="1-1"/>
+<wire x1="50.038" y1="3.302" x2="55.626" y2="26.162" width="0" layer="19" extent="1-1"/>
+<wire x1="32.5628" y1="11.303" x2="37.338" y2="27.9908" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="GND">
 <polygon width="0.3048" layer="1" isolate="0.254">
@@ -707,6 +798,7 @@ design rules under a new name.</description>
 <signal name="VUSB" class="1">
 <contactref element="J3" pad="2"/>
 <contactref element="J2" pad="1"/>
+<wire x1="27.178" y1="3.302" x2="27.178" y2="33.782" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PB11">
 <contactref element="J1" pad="2"/>

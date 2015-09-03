@@ -619,19 +619,19 @@ design rules under a new name.</description>
 <element name="SWD_DEBUG" library="hydrabus_shield" package="HYDRABUS_SHIELD_M1X6" value="HYDRABUS_SHIELD_CON_HEADER_1X06" x="37.338" y="27.9908" smashed="yes">
 <attribute name="NAME" x="36.83" y="25.7683" size="0.8128" layer="21" ratio="10"/>
 </element>
-<element name="U1" library="Texas Instruments_By_element14_Batch_1" package="SOIC127P600X175-8N" value="SN65HVD233D" x="19.431" y="27.813" rot="MR0">
-<attribute name="OC_NEWARK" value="54H4289" x="19.431" y="27.813" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="SUPPLIER" value="Texas Instruments" x="19.431" y="27.813" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="OC_FARNELL" value="1207268" x="19.431" y="27.813" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="SOIC-8" x="19.431" y="27.813" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="SN65HVD233D" x="19.431" y="27.813" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="U1" library="Texas Instruments_By_element14_Batch_1" package="SOIC127P600X175-8N" value="SN65HVD233D" x="29.972" y="22.606" rot="MR0">
+<attribute name="OC_NEWARK" value="54H4289" x="29.972" y="22.606" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SUPPLIER" value="Texas Instruments" x="29.972" y="22.606" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_FARNELL" value="1207268" x="29.972" y="22.606" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PACKAGE" value="SOIC-8" x="29.972" y="22.606" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="SN65HVD233D" x="29.972" y="22.606" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="U2" library="Texas Instruments_By_element14_Batch_1" package="SOIC127P600X175-8N" value="SN65HVD233D" x="19.939" y="7.366" rot="MR0">
-<attribute name="OC_NEWARK" value="54H4289" x="19.939" y="7.366" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="SUPPLIER" value="Texas Instruments" x="19.939" y="7.366" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="OC_FARNELL" value="1207268" x="19.939" y="7.366" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PACKAGE" value="SOIC-8" x="19.939" y="7.366" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="SN65HVD233D" x="19.939" y="7.366" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="U2" library="Texas Instruments_By_element14_Batch_1" package="SOIC127P600X175-8N" value="SN65HVD233D" x="30.099" y="11.938" rot="MR0">
+<attribute name="OC_NEWARK" value="54H4289" x="30.099" y="11.938" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SUPPLIER" value="Texas Instruments" x="30.099" y="11.938" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_FARNELL" value="1207268" x="30.099" y="11.938" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PACKAGE" value="SOIC-8" x="30.099" y="11.938" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="SN65HVD233D" x="30.099" y="11.938" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 </elements>
 <signals>
@@ -644,7 +644,7 @@ design rules under a new name.</description>
 <wire x1="55.626" y1="26.162" x2="50.038" y2="33.782" width="0" layer="19" extent="1-1"/>
 <wire x1="37.338" y1="27.9908" x2="50.038" y2="33.782" width="0" layer="19" extent="1-1"/>
 <wire x1="50.038" y1="3.302" x2="55.626" y2="26.162" width="0" layer="19" extent="1-1"/>
-<wire x1="22.4028" y1="6.731" x2="37.338" y2="27.9908" width="0" layer="19" extent="16-16"/>
+<wire x1="32.5628" y1="11.303" x2="37.338" y2="27.9908" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="GND">
 <polygon width="0.3048" layer="1" isolate="0.254">
