@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -914,8 +914,8 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="16M2304" x="31.115" y="24.257" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="IC1" library="v-reg" package="78XXS" value="" x="7.366" y="35.052"/>
-<element name="R1" library="pot" package="B25U" value="" x="18.796" y="4.318" rot="R180"/>
-<element name="R2" library="pot" package="B25U" value="" x="20.828" y="32.893"/>
+<element name="R1" library="pot" package="B25U" value="" x="16.129" y="14.224" rot="R180"/>
+<element name="R2" library="pot" package="B25U" value="" x="16.129" y="21.209"/>
 <element name="SV1" library="con-lsta" package="FE08" value="" x="3.683" y="18.796" rot="R90">
 <attribute name="MPN" value="" x="3.683" y="18.796" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="3.683" y="18.796" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1184,7 +1184,7 @@ design rules under a new name.</description>
 <wire x1="13.75" y1="22.25" x2="16.25" y2="24.75" width="0.2032" layer="1"/>
 <wire x1="13.75" y1="21.75" x2="13.75" y2="22.25" width="0.2032" layer="1"/>
 <wire x1="33.5" y1="23.75" x2="33.5788" y2="23.622" width="0.2032" layer="16"/>
-<wire x1="13.75" y1="21.75" x2="18.288" y2="32.004" width="0.2032" layer="1"/>
+<wire x1="13.75" y1="21.75" x2="13.589" y2="20.32" width="0.2032" layer="1"/>
 <via x="31.75" y="23.75" extent="1-16" drill="0.3302"/>
 </signal>
 <signal name="N$7">
@@ -1195,7 +1195,7 @@ design rules under a new name.</description>
 <wire x1="13.75" y1="15.5" x2="15.25" y2="14" width="0.2032" layer="1"/>
 <wire x1="13.75" y1="16.25" x2="13.75" y2="15.5" width="0.2032" layer="1"/>
 <wire x1="33.5" y1="14" x2="33.5788" y2="13.843" width="0.2032" layer="16"/>
-<wire x1="13.75" y1="16.25" x2="16.256" y2="5.207" width="0.2032" layer="1"/>
+<wire x1="13.75" y1="16.25" x2="13.589" y2="15.113" width="0.2032" layer="1"/>
 <via x="30.5" y="14" extent="1-16" drill="0.3302"/>
 </signal>
 <signal name="N$1">
@@ -1272,7 +1272,7 @@ design rules under a new name.</description>
 <wire x1="28.25" y1="21.75" x2="30.5" y2="24" width="0.2032" layer="1"/>
 <wire x1="19" y1="21.75" x2="28.25" y2="21.75" width="0.2032" layer="1"/>
 <wire x1="33.5" y1="25" x2="33.5788" y2="24.892" width="0.2032" layer="16"/>
-<wire x1="19" y1="21.75" x2="23.368" y2="32.004" width="0.2032" layer="1"/>
+<wire x1="19" y1="21.75" x2="18.669" y2="20.32" width="0.2032" layer="1"/>
 <via x="30.5" y="24" extent="1-16" drill="0.3302"/>
 </signal>
 <signal name="N$16">
@@ -1288,7 +1288,7 @@ design rules under a new name.</description>
 <wire x1="16.5" y1="22.25" x2="18" y2="23.75" width="0.2032" layer="1"/>
 <wire x1="16.5" y1="21.75" x2="16.5" y2="22.25" width="0.2032" layer="1"/>
 <wire x1="28.5" y1="26.25" x2="28.6512" y2="26.162" width="0.2032" layer="16"/>
-<wire x1="16.5" y1="21.75" x2="20.828" y2="32.004" width="0.2032" layer="1"/>
+<wire x1="16.5" y1="21.75" x2="16.129" y2="20.32" width="0.2032" layer="1"/>
 <via x="26.5" y="24" extent="1-16" drill="0.3302"/>
 </signal>
 <signal name="N$18">
