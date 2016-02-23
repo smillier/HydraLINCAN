@@ -8258,7 +8258,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
-<part name="JP1" library="jumper" deviceset="JP1E" device="" value="H1"/>
+<part name="JP1" library="jumper" deviceset="JP1E" device=""/>
 <part name="JP2" library="jumper" deviceset="JP1E" device=""/>
 <part name="K1" library="Seeed-OPL-Button" deviceset="DIP-BUTTON-FRONT-WHITE(2P-3.4X6MM)" device="" value="TS-1101F"/>
 <part name="C1" library="Seeed-OPL-Capacitor" deviceset="CERAMIC-100NF-50V-20%-Y5V(0805)" device="" value="100NF"/>
@@ -8268,7 +8268,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="R10" library="resistor" deviceset="R-EU_" device="R0603" value="470"/>
+<part name="R10" library="resistor" deviceset="R-EU_" device="R0603"/>
 <part name="R11" library="resistor" deviceset="R-EU_" device="R0603"/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
@@ -8295,31 +8295,23 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="IC1" gate="G$1" x="-12.7" y="91.44"/>
 <instance part="R1" gate="1" x="142.24" y="96.52"/>
 <instance part="R2" gate="1" x="147.32" y="30.48"/>
-<<<<<<< HEAD
-=======
-<instance part="VUSB2" gate="G$1" x="1.524" y="93.98"/>
->>>>>>> 92017759021b0f4ad73f2b3482d3586635b8d9b3
 <instance part="+3V1" gate="G$1" x="160.02" y="45.72"/>
 <instance part="GND2" gate="1" x="142.24" y="83.82"/>
 <instance part="+3V3" gate="G$1" x="157.48" y="140.97"/>
 <instance part="SV1" gate="G$1" x="215.9" y="91.44" rot="R180"/>
-<instance part="GND7" gate="1" x="-12.7" y="63.754" rot="MR0"/>
+<instance part="GND7" gate="1" x="-12.7" y="62.484" rot="MR0"/>
 <instance part="P+1" gate="1" x="-22.86" y="96.52"/>
 <instance part="P+2" gate="1" x="210.82" y="73.66" rot="R270"/>
 <instance part="GND8" gate="1" x="203.2" y="73.66"/>
 <instance part="GND10" gate="1" x="133.096" y="22.86"/>
 <instance part="GND11" gate="1" x="130.81" y="97.79" rot="MR0"/>
 <instance part="GND12" gate="1" x="153.67" y="13.97" rot="MR0"/>
-<instance part="LPWR" gate="G$1" x="1.524" y="73.152"/>
+<instance part="LPWR" gate="G$1" x="-2.54" y="73.66"/>
 <instance part="LRXCAN1" gate="G$1" x="124.46" y="147.32" rot="R180"/>
 <instance part="LTXCAN1" gate="G$1" x="132.08" y="147.32" rot="R180"/>
 <instance part="LRXCAN2" gate="G$1" x="127" y="66.04" rot="R180"/>
 <instance part="LTXCAN2" gate="G$1" x="134.62" y="66.04" rot="R180"/>
-<<<<<<< HEAD
 <instance part="R3" gate="G$1" x="-2.54" y="81.28" rot="R90"/>
-=======
-<instance part="R3" gate="G$1" x="1.524" y="86.36" rot="R90"/>
->>>>>>> 92017759021b0f4ad73f2b3482d3586635b8d9b3
 <instance part="R4" gate="G$1" x="124.46" y="134.62" rot="R90"/>
 <instance part="R5" gate="G$1" x="132.08" y="134.62" rot="R90"/>
 <instance part="R6" gate="G$1" x="127" y="53.34" rot="R270"/>
@@ -8330,17 +8322,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="GND14" gate="1" x="130.81" y="161.29" rot="MR180"/>
 <instance part="GND15" gate="1" x="125.73" y="82.55" rot="MR180"/>
 <instance part="GND16" gate="1" x="133.35" y="82.55" rot="MR180"/>
-<<<<<<< HEAD
 <instance part="GND17" gate="1" x="-2.54" y="62.484" rot="MR0"/>
 <instance part="JP1" gate="A" x="195.58" y="142.24"/>
 <instance part="JP2" gate="A" x="210.82" y="60.96" rot="MR0"/>
-=======
-<instance part="GND17" gate="1" x="1.524" y="63.246" rot="MR0"/>
-<instance part="JP1" gate="A" x="144.78" y="142.24"/>
-<instance part="JP2" gate="A" x="149.86" y="63.5"/>
->>>>>>> 92017759021b0f4ad73f2b3482d3586635b8d9b3
 <instance part="K1" gate="G$1" x="48.26" y="48.26" rot="R270"/>
-<instance part="C1" gate="G$1" x="-22.86" y="83.82" rot="R270"/>
+<instance part="C1" gate="G$1" x="-22.86" y="81.28" rot="R270"/>
 <instance part="C2" gate="G$1" x="160.02" y="55.88" rot="R270"/>
 <instance part="C3" gate="G$1" x="165.1" y="132.08" rot="R270"/>
 <instance part="GND18" gate="1" x="160.02" y="65.532" rot="MR180"/>
@@ -8435,7 +8421,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="31.75" y1="134.874" x2="31.75" y2="133.35" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<<<<<<< HEAD
 <pinref part="GND8" gate="1" pin="GND"/>
 <pinref part="SV1" gate="G$1" pin="5"/>
 <wire x1="203.2" y1="76.2" x2="203.2" y2="83.82" width="0.1524" layer="91"/>
@@ -8446,17 +8431,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="208.28" y1="86.36" x2="203.2" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="SV1" gate="G$1" pin="7"/>
 <wire x1="208.28" y1="83.82" x2="203.2" y2="83.82" width="0.1524" layer="91"/>
-=======
-<pinref part="J2" gate="J" pin="20"/>
-<pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="20.32" y1="104.14" x2="31.75" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="31.75" y1="104.14" x2="31.75" y2="100.33" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SWD_DEBUG" gate="G$1" pin="3"/>
-<pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="76.2" y1="92.71" x2="88.9" y2="92.71" width="0.1524" layer="91"/>
->>>>>>> 92017759021b0f4ad73f2b3482d3586635b8d9b3
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="LBK"/>
@@ -8486,11 +8460,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="IC1" gate="G$1" pin="ADJ"/>
 <wire x1="-12.7" y1="83.82" x2="-12.7" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="-12.7" y1="76.2" x2="-12.7" y2="66.294" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="76.2" x2="-12.7" y2="65.024" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="76.2" x2="-12.7" y2="76.2" width="0.1524" layer="91"/>
 <junction x="-12.7" y="76.2"/>
 <junction x="-22.86" y="76.2"/>
-<wire x1="-22.86" y1="76.2" x2="-22.86" y2="80.01" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="76.2" x2="-22.86" y2="77.47" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -8503,7 +8477,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </segment>
 <segment>
 <pinref part="LPWR" gate="G$1" pin="C"/>
-<wire x1="1.524" y1="68.072" x2="1.524" y2="65.786" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="68.58" x2="-2.54" y2="65.024" width="0.1524" layer="91"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -8574,12 +8548,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="GND18" gate="1" pin="GND"/>
 <junction x="160.02" y="62.992"/>
 </segment>
-<segment>
-<pinref part="GND8" gate="1" pin="GND"/>
-<pinref part="SV1" gate="G$1" pin="5"/>
-<wire x1="203.2" y1="83.82" x2="203.2" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="88.9" x2="208.28" y2="88.9" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="USB0D_P" class="0">
 <segment>
@@ -8630,32 +8598,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="J3" gate="J" pin="15"/>
 </segment>
 </net>
-<<<<<<< HEAD
-=======
-<net name="VUSB" class="1">
-<segment>
-<pinref part="J3" gate="J" pin="2"/>
-<pinref part="VUSB1" gate="G$1" pin="VUSB"/>
-<wire x1="-30.48" y1="127" x2="-24.13" y2="127" width="0.1524" layer="91"/>
-<wire x1="-24.13" y1="127" x2="-24.13" y2="128.27" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J2" gate="J" pin="1"/>
-<pinref part="VUSB3" gate="G$1" pin="VUSB"/>
-<wire x1="12.7" y1="127" x2="1.27" y2="127" width="0.1524" layer="91"/>
-<wire x1="1.27" y1="127" x2="1.27" y2="133.35" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUT"/>
-<wire x1="-5.08" y1="91.44" x2="1.524" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="VUSB2" gate="G$1" pin="VUSB"/>
-<junction x="1.524" y="91.44"/>
-<wire x1="1.524" y1="91.44" x2="1.524" y2="93.98" width="0.1524" layer="91"/>
-<junction x="-5.08" y="91.44"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-</segment>
-</net>
->>>>>>> 92017759021b0f4ad73f2b3482d3586635b8d9b3
 <net name="PB11" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
@@ -8932,7 +8874,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="J3" gate="J" pin="14"/>
 </segment>
 </net>
-<net name="CAN1H" class="0">
+<net name="N$10" class="0">
 <segment>
 <pinref part="SV1" gate="G$1" pin="2"/>
 <pinref part="U1" gate="A" pin="CANH"/>
@@ -8944,7 +8886,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="193.04" y1="124.46" x2="195.58" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="CAN2L" class="0">
+<net name="N$11" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="CANL"/>
 <wire x1="195.58" y1="43.18" x2="195.58" y2="58.42" width="0.1524" layer="91"/>
@@ -8964,7 +8906,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="-22.86" y1="91.44" x2="-20.32" y2="91.44" width="0.1524" layer="91"/>
 <junction x="-22.86" y="91.44"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="-22.86" y1="87.63" x2="-22.86" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="85.09" x2="-22.86" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+2" gate="1" pin="+12V"/>
@@ -9005,12 +8947,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <segment>
 <pinref part="LPWR" gate="G$1" pin="A"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<<<<<<< HEAD
-=======
-<wire x1="1.524" y1="81.28" x2="1.524" y2="75.692" width="0.1524" layer="91"/>
-<junction x="1.524" y="81.28"/>
-<junction x="1.524" y="75.692"/>
->>>>>>> 92017759021b0f4ad73f2b3482d3586635b8d9b3
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -9027,7 +8963,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="210.82" y1="55.88" x2="210.82" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="CAN1L" class="0">
+<net name="N$9" class="0">
 <segment>
 <pinref part="SV1" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="99.06" x2="198.12" y2="99.06" width="0.1524" layer="91"/>
@@ -9039,7 +8975,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="198.12" y="114.3"/>
 </segment>
 </net>
-<net name="CAN2H" class="0">
+<net name="N$12" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="CANH"/>
 <wire x1="195.58" y1="40.64" x2="198.12" y2="40.64" width="0.1524" layer="91"/>
@@ -9117,6 +9053,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <approved hash="104,1,160.02,43.18,U2,VCC,+3V3,,,"/>
 <approved hash="106,1,20.32,121.92,BOOT0,,,,,"/>
 <approved hash="106,1,-2.54,88.9,N$15,,,,,"/>
+<approved hash="106,1,165.1,135.89,N$18,,,,,"/>
+<approved hash="106,1,160.02,59.69,N$20,,,,,"/>
+<approved hash="106,1,63.5,35.56,N$22,,,,,"/>
 <approved hash="106,1,76.2,87.63,NRST,,,,,"/>
 <approved hash="106,1,12.7,124.46,PA0,,,,,"/>
 <approved hash="106,1,12.7,121.92,PA1,,,,,"/>
@@ -9156,10 +9095,15 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <approved hash="106,1,76.2,90.17,SWD_SWDIO,,,,,"/>
 <approved hash="106,1,20.32,114.3,USB0D_N,,,,,"/>
 <approved hash="106,1,20.32,116.84,USB0D_P,,,,,"/>
+<approved hash="108,1,147.32,25.4,GND,,,,,"/>
 <approved hash="107,1,-2.54,91.44,N$15,VUSB,,,,"/>
 <approved hash="110,1,147.32,35.56,PB11,+3V3,,,,"/>
 <approved hash="111,1,147.32,35.56,PB11,,,,,"/>
 <approved hash="111,1,130.81,159.258,GND,,,,,"/>
+<approved hash="111,1,-2.54,64.389,GND,,,,,"/>
+<approved hash="111,1,160.02,63.246,N$20,,,,,"/>
+<approved hash="111,1,165.1,138.811,N$18,,,,,"/>
+<approved hash="111,1,68.072,34.036,N$22,,,,,"/>
 <approved hash="113,1,142.769,96.52,R1,,,,,"/>
 <approved hash="113,1,147.849,30.48,R2,,,,,"/>
 <approved hash="113,1,210.862,88.7053,SV1,,,,,"/>
@@ -9175,9 +9119,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <approved hash="113,1,133.625,53.34,R7,,,,,"/>
 <approved hash="113,1,143.785,124.46,R8,,,,,"/>
 <approved hash="113,1,148.865,53.34,R9,,,,,"/>
-<approved hash="113,1,145.169,141.035,JP1,,,,,"/>
+<approved hash="113,1,145.169,133.415,JP1,,,,,"/>
 <approved hash="113,1,150.249,62.2953,JP2,,,,,"/>
-<approved hash="113,1,55.88,36.5548,R10,,,,,"/>
+<approved hash="113,1,58.42,36.5548,R10,,,,,"/>
 <approved hash="113,1,38.1,36.5548,R11,,,,,"/>
 <approved hash="115,1,29.21,35.56,PB7,,,,,"/>
 </errors>
