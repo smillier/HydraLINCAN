@@ -7053,7 +7053,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="R9" library="Seeed-OPL-Resistor" deviceset="SMD-RES-33K-1%-1/4W(1206)" device="" value="120k"/>
 <part name="CAN1" library="jumper" deviceset="JP1E" device=""/>
 <part name="CAN2" library="jumper" deviceset="JP1E" device=""/>
-<part name="K1" library="Seeed-OPL-Button" deviceset="SMD-BUTTON-2+2P" device="" value="TS-1188E"/>
+<part name="UBTN" library="Seeed-OPL-Button" deviceset="SMD-BUTTON-2+2P" device="" value="TS-1188E"/>
 <part name="C1" library="Seeed-OPL-Capacitor" deviceset="CERAMIC-100NF-50V-20%-Y5V(0805)" device="" value="100NF"/>
 <part name="C2" library="Seeed-OPL-Capacitor" deviceset="CERAMIC-100NF-50V-20%-Y5V(0805)" device="" value="100NF"/>
 <part name="C3" library="Seeed-OPL-Capacitor" deviceset="CERAMIC-100NF-50V-20%-Y5V(0805)" device="" value="100NF"/>
@@ -7178,7 +7178,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="NAME" x="212.09" y="60.96" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="205.105" y="60.96" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="K1" gate="K" x="49.53" y="51.308" smashed="yes" rot="R270">
+<instance part="UBTN" gate="K" x="49.53" y="51.308" smashed="yes" rot="R270">
 <attribute name="NAME" x="53.34" y="57.658" size="1.27" layer="95" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="53.34" y="51.308" size="1.27" layer="96" ratio="10" rot="R270"/>
 </instance>
@@ -7347,7 +7347,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="160.02" y="52.07"/>
 </segment>
 <segment>
-<pinref part="K1" gate="K" pin="1"/>
+<pinref part="UBTN" gate="K" pin="1"/>
 <wire x1="48.26" y1="57.658" x2="48.26" y2="62.484" width="0.1524" layer="91"/>
 <junction x="48.26" y="62.484"/>
 <wire x1="48.26" y1="62.484" x2="48.26" y2="67.818" width="0.1524" layer="91"/>
@@ -7957,7 +7957,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="K1" gate="K" pin="2"/>
+<pinref part="UBTN" gate="K" pin="2"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="44.958" x2="48.26" y2="37.846" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="37.846" x2="48.26" y2="35.56" width="0.1524" layer="91"/>
