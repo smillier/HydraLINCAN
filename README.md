@@ -1,6 +1,6 @@
-# HydraLINCAN Shield for HydraBus
+# HydraLINCAN shield for HydraBus
 
-CAN Bus and LIN Bus Shield for Hydrabus http://hydrabus.com/
+CAN and LIN Bus shield for Hydrabus http://hydrabus.com/
 Refer to Hydrabus Wiki for more information on usage. https://github.com/hydrabus/hydrafw/wiki/HydraFW-CAN-guide
 
 #### New version with cleaner and easier to read mask coming.
